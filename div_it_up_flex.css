@@ -1,0 +1,115 @@
+.navbar {
+    width: 70vw;
+    position: relative;
+    left: 250px;
+    top: -20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbuttons a, li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-family: monospace;
+    padding: 10px;
+    color: black;
+
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    display: flex;
+}
+
+body {
+    background-image: url("./sunset-in-the-phone-4700581_1920.jpg");
+    background-color: none;
+    background-size: initial;
+
+}
+
+h1 {
+    font-size: 52px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70vw;
+    position: relative;
+    top: 45px;
+    left: 100px;
+    display: flex;
+}
+
+.gibberish {
+    font-size: 16px;
+    width: 60vw;
+    padding-top: 20px;
+    position: relative;
+    top: 15px;
+    left: 102px;
+    display: flex;
+}
+
+.button-line {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 90%;
+    font-weight: bolder;
+    position: relative;
+    left: 22px;
+    top: 40px;
+}
+
+.button-line a {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 5px;
+    margin-right: 62px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.chapters {
+    margin: -30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    position: relative;
+    left: 22px;
+    top: 100px;
+}
+
+.chapters a {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+    margin-right: 20px;
+    padding: 25px;
+    background-color: white;
+
+}

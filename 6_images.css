@@ -1,0 +1,25 @@
+.photo {
+    max-width: 100%;
+    list-style: none;
+}
+
+
+.photo img {
+    display: block;
+}
+
+@media screen and (min-width: 640px) {
+    .photo-gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .photo {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 960px) {
+    .photo {
+        width: calc(100% / 3)
+    }
+}
